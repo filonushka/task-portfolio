@@ -93,3 +93,46 @@ body {
 .lang-switch span:hover {
   color: #bdae82;
 }
+
+.hero-container {
+  background-image: url("./assets/img/header-bg.jpg");
+  background-position: center -90px;
+  background-repeat: no-repeat;
+  height: 820px;
+  padding-top: 160px;
+  padding-left: 80px;
+  padding-bottom: 330px;
+  padding-right: 860px;
+}
+
+.hero-content h1 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.hero-content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  padding-bottom: 25px;
+  width: 470px;
+}
+
+button {
+  height: 55px;
+  width: 220px;
+  background-color: #bdae82;
+  border-radius: 0px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter";
+  font-size: 20px;
+}
