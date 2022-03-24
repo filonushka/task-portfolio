@@ -278,3 +278,31 @@ button {
   justify-content: center;
   gap: 10px;
 }
+
+.video {
+  padding-top: 100px;
+}
+
+.video-player {
+  padding-top: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-button {
+  position: absolute;
+  background-color: transparent;
+  width: 130px;
+  height: 130px;
+  background-image: url("./assets/svg/video-player.svg");
+}
+
+.player-button:hover {
+  position: absolute;
+  background-color: transparent;
+  width: 130px;
+  height: 130px;
+  background-image: url("./assets/svg/video-player-hover.svg");
+}
