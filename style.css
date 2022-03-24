@@ -133,7 +133,21 @@ button {
   cursor: pointer;
   font-family: "Inter";
   font-size: 20px;
+  color: #000;
 }
+
+.transparent-button {
+  height: 55px;
+  width: 220px;
+  background-color: black;
+  border-radius: 0px;
+  border: 1px solid #bdae82;
+  cursor: pointer;
+  font-family: "Inter";
+  font-size: 20px;
+  color: #bdae82;
+}
+
 .skills,
 .portfolio,
 .video,
@@ -241,4 +255,26 @@ button {
   color: #ffffff;
   padding-top: 20px;
   width: 280px;
+}
+
+.portfolio {
+  height: 1500x;
+  padding-top: 100px;
+}
+
+.block-buttons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  gap: 5px;
+}
+
+.block-img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
