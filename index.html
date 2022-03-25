@@ -20,7 +20,7 @@
         <di class="header-container">
             <a href="#">
               <svg class="icon">
-                <use xlink:href="./assets/svg/sprite.svg#header-logo"></use>
+                <use xlink:href="./assets/svg/sprite-logo.svg#header-logo"></use>
               </svg>
             </a>
             <nav class="nav">
@@ -99,7 +99,12 @@
             <div class="wrapper"><h2 class="section-title">Video</h2></div>
             <div class="video-player">
                 <img src="./assets/img/video-player.png" alt="video image">
-                <button class="player-button"></button>               
+                
+                <button class="player-button">
+                    <svg class="icon-play">
+                        <use xlink:href="./assets/svg/sprite-play.svg#play"></use>
+                    </svg>
+                </button>               
             </div>
         </section>
         <section class="price" id="price">
@@ -160,7 +165,38 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container">
+          <div class="footer-container">
+              <div class="footer-data">
+                  <span>©</span>
+                  <span>2022</span>
+                  <span><a href="https://github.com/filonushka" target="_blank">github</a></span>
+              </div>
+              <div class="rss-link"><a href="https://rs.school/" target="_blank">Rolling Scopes School</a></div>
+              <div class="socials">
+                  <a href="https://www.instagram.com/" target="_blank">
+                        <svg class="icon">
+                          <use xlink:href="./assets/svg/sprite-inst.svg#inst"></use>
+                        </svg>
+                  </a>
+                  <a href="https://www.facebook.com/" target="_blank">
+                        <svg class="icon">
+                          <use xlink:href="./assets/svg/sprite-fb.svg#fb"></use>
+                        </svg>
+                  </a>
+                  <a href="https://pinterest.com/" target="_blank">
+                        <svg class="icon">
+                          <use xlink:href="./assets/svg/sprite-pinterest.svg#pinterest"></use>
+                        </svg>
+                  </a>
+                  <a href="https://twitter.com/" target="_blank">
+                        <svg class="icon">
+                          <use xlink:href="./assets/svg/sprite-tw.svg#tw"></use>
+                        </svg>
+                  </a>
+              </div>
+          </div>
+      </div>
     </footer>
     <script src="./index.js"></script>
   </body>
