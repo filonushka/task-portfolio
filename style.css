@@ -281,7 +281,8 @@ button {
 }
 
 .video,
-.price {
+.price,
+.contacts {
   padding-top: 100px;
 }
 
@@ -359,4 +360,68 @@ button {
 .card-button {
   display: block;
   margin: 0 auto;
+}
+
+.contacts-container {
+  background-size: 700px;
+  height: 700px;
+  background-position: center center;
+  background: url("./assets/img/contacts-bg.jpg");
+  padding-right: 20px;
+}
+
+.contacts-content {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: 60px;
+}
+
+.contacts-title {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
+  color: #bdae82;
+  margin-bottom: 45px;
+}
+
+.input,
+.textarea {
+  border: 2px solid #bdae82;
+  box-sizing: border-box;
+  border-radius: 0px;
+  background-color: transparent;
+  width: 450px;
+  resize: none;
+  font-family: "Inter";
+  margin-bottom: 20px;
+  padding-top: 5px;
+}
+
+.input {
+  height: 50px;
+}
+
+.textarea {
+  height: 100px;
+}
+.input::placeholder,
+textarea::placeholder {
+  font-family: inherit;
+  color: #bdae82;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  padding-left: 20px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #bdae82;
+  transition: background-color 0s ease-in-out 9000s;
 }
