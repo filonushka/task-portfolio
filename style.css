@@ -1,3 +1,17 @@
+:root {
+  --color-bdae82: #bdae82;
+  --color-000: #000;
+  --color-fff: #fff;
+  --font-60: 60px;
+  --font-40: 40px;
+  --font-24: 28px;
+  --font-24: 24px;
+  --font-20: 20px;
+  --font-18: 18px;
+  --font-familyInter: "Inter", sans-serif;
+  --font-familyMerriweather: "Merriweather", serif;
+}
+
 * {
   box-sizing: border-box;
 
@@ -53,39 +67,39 @@ body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: var(--font-20);
   line-height: 50px;
-  color: #ffffff;
+  color: var(--color-fff);
   transition: 0.3s;
 }
 
 .nav-link:hover {
-  color: #bdae82;
+  color: var(--color-bdae82);
 }
 
 .icon {
   width: 30px;
   height: 30px;
-  fill: #ffffff;
+  fill: var(--color-fff);
   margin-left: 20px;
 }
 
 .icon:hover {
-  fill: #bdae82;
+  fill: var(--color-bdae82);
 }
 
 .lang-switch {
-  font-family: "Inter";
+  font-family: var(--font-familyInter)
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: var(--font-20);
   line-height: 50px;
-  color: #ffffff;
+  color: var(--color-fff);
   cursor: pointer;
 }
 
 .lang-switch span:hover {
-  color: #bdae82;
+  color: var(--color-bdae82);
 }
 
 .hero-container {
@@ -100,22 +114,22 @@ body {
 }
 
 .hero-content h1 {
-  font-family: "Merriweather";
+  font-family: var(--font-familyMerriweather);
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
+  font-size: var(--font-60);
   line-height: 120px;
-  color: #ffffff;
+  color: var(--color-fff);
   padding-bottom: 10px;
 }
 
 .hero-content p {
-  font-family: "Inter";
+  font-family: var(--font-familyInter);
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: var(--font-20);
   line-height: 40px;
-  color: #ffffff;
+  color: var(--color-fff);
   padding-bottom: 25px;
   width: 470px;
 }
@@ -123,26 +137,26 @@ body {
 button {
   height: 55px;
   width: 220px;
-  background-color: #bdae82;
+  background-color: var(--color-bdae82);
   border-radius: 0px;
   border: none;
   cursor: pointer;
-  font-family: "Inter";
-  font-size: 20px;
-  color: #000;
+  font-family: var(--font-familyInter);
+  font-size: var(--font-20);
+  color: var(--color-000);
   text-align: center;
 }
 
 .transparent-button {
   height: 55px;
   width: 220px;
-  background-color: black;
+  background-color: var(--color-000);
   border-radius: 0px;
-  border: 1px solid #bdae82;
+  border: 1px solid var(--color-bdae82);
   cursor: pointer;
   font-family: "Inter";
-  font-size: 20px;
-  color: #bdae82;
+  font-size: var(--font-20);
+  color: var(--color-bdae82);
 }
 
 .skills,
@@ -150,7 +164,7 @@ button {
 .video,
 .price,
 .contacts {
-  background-color: #000;
+  background-color: var(--color-000);
 }
 
 .wrapper {
@@ -160,23 +174,23 @@ button {
   overflow: hidden;
   background-image: linear-gradient(
     to top,
-    #000 39px,
-    #bdae82 39px,
-    #bdae82 41px,
-    #000 41px
+    var(--color-000) 39px,
+    var(--color-bdae82) 39px,
+    var(--color-bdae82) 41px,
+    var(--color-000) 41px
   );
 }
 
 .section-title {
   position: relative;
-  font-family: "Merriweather";
+  font-family: var(--font-familyMerriweather);
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: var(--font-40);
   line-height: 80px;
   text-align: center;
-  color: #bdae82;
-  background-color: #000;
+  color: var(--color-bdae82);
+  background-color: var(--color-000);
   width: 220px;
   display: inline-block;
   vertical-align: middle;
@@ -186,11 +200,11 @@ button {
 .section-title::before {
   width: 100%;
   position: absolute;
-  border-bottom: 1px solid #bdae82;
+  border-bottom: 1px solid var(--color-bdae82);
   top: 50%;
   display: inline-block;
   vertical-align: middle;
-  background-color: #bdae82;
+  background-color: var(--color-bdae82)
 }
 
 .skills {
@@ -237,19 +251,19 @@ button {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: var(--font-20);
   line-height: 40px;
-  color: #ffffff;
+  color: var(--color-fff);
   padding-top: 100px;
 }
 
 .item-subtitle {
-  font-family: "Inter";
+  font-family: var(--font-familyInter);
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: var(--font-18);
   line-height: 36px;
-  color: #ffffff;
+  color: var(--color-fff);
   padding-top: 20px;
   width: 280px;
 }
@@ -305,12 +319,12 @@ button {
 .icon-play {
   width: 130px;
   height: 130px;
-  fill: #ffffff;
+  fill: var(--color-fff);
   vertical-align: middle;
 }
 
 .icon-play:hover {
-  fill: #bdae82;
+  fill: var(--color-bdae82);
 }
 
 .price-cards {
@@ -320,29 +334,29 @@ button {
 }
 
 .price-card {
-  border: 1px solid #bdae82;
+  border: 1px solid var(--color-bdae82);
   padding: 43px;
   width: 450px;
 }
 
 .price-title {
-  font-family: "Merriweather";
+  font-family: var(--font-familyMerriweather);
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
+  font-size: var(--font-28);
   line-height: 56px;
   text-align: center;
-  color: #ffffff;
+  color: var(--color-fff);
 }
 
 .price-subtitle {
-  font-family: "Merriweather";
+  font-family: var(--font-familyMerriweather);
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: var(--font-24);
   line-height: 48px;
   text-align: center;
-  color: #bdae82;
+  color: var(--color-bdae82);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -355,10 +369,10 @@ button {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: var(--font-18);
   line-height: 36px;
   text-align: center;
-  color: #ffffff;
+  color: var(--color-fff);
 }
 .card-button {
   display: block;
@@ -384,9 +398,9 @@ button {
   font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: var(--font-40);
   line-height: 80px;
-  color: #bdae82;
+  color: var(--color-bdae82);
   margin-bottom: 45px;
 }
 
@@ -398,7 +412,7 @@ button {
   background-color: transparent;
   width: 450px;
   resize: none;
-  font-family: "Inter";
+  font-family: var(--font-familyInter);
   margin-bottom: 20px;
   padding-top: 5px;
 }
@@ -412,9 +426,9 @@ button {
 }
 .input::placeholder,
 textarea::placeholder {
-  font-family: inherit;
-  color: #bdae82;
-  font-size: 20px;
+  font-family: var(--font-familyInter);
+  color: var(--color-bdae82);
+  font-size: var(--font-20);
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
@@ -425,13 +439,13 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  -webkit-text-fill-color: #bdae82;
+  -webkit-text-fill-color: var(--color-bdae82);
   transition: background-color 0s ease-in-out 9000s;
 }
 
 .footer-container {
   height: 150px;
-  background-color: #000;
+  background-color: var(--color-000);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -440,22 +454,22 @@ input:-webkit-autofill:active {
 
 .footer-data,
 .rss-link {
-  font-family: "Inter";
+  font-family: var(--font-familyInter);
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: var(--font-20);
   line-height: 50px;
-  color: #ffffff;
+  color: var(--color-fff);
 }
 
 .footer-data a,
 .rss-link a,
 .socials a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--color-fff);
 }
 
 .footer-data a:hover,
 .rss-link a:hover {
-  color: #bdae82;
+  color: var(--color-bdae82);
 }
